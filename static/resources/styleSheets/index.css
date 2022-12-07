@@ -1,0 +1,393 @@
+@charset "UTF-8";
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper {
+    height: 95vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    box-shadow: 0 0 10px #9b9b9b;
+}
+
+.wrapper > .info {
+    width: 20rem;
+
+    background-color: #6667aa;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper > .info > .title {
+    color: #F5F6F7;
+    font-family: 'jua', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 2rem;
+}
+
+.wrapper > .info > .mid-title {
+    color: #F5F6F7;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0.75rem;
+}
+
+.wrapper > .info > img {
+    width: 10rem;
+    height: 10rem;
+
+    border-radius: 100%;
+    border: 0.0625rem solid rgb(255, 255, 255);
+    margin: 1rem;
+    object-fit: cover;
+    overflow: hidden;
+    transform: rotate(90deg);
+}
+
+.wrapper > .info > .contact-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.wrapper > .info > .contact-icons > .icons > i {
+    color: #F5F6F7;
+    font-size: 2.25rem;
+}
+
+.wrapper > .info > .introduction {
+    width: 17rem;
+    height: 15rem;
+    display: block;
+    color: #F5F6F7;
+    font-weight: 300;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+.wrapper > .info > footer {
+    color: #9b9b9b;
+    font-weight: 400;
+}
+
+.wrapper > .detail-info {
+    width: 55rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.wrapper > .detail-info > .personal {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 3rem 1rem 3rem;
+}
+
+.wrapper > .detail-info > .personal > .title {
+    width: 20rem;
+    color: #6667aa;
+    border-bottom: 0.0625rem solid rgb(102, 103, 170, 0.5);
+    font-weight: 700;
+    font-size: 1.45rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper > .detail-info > .personal > .contents {
+    font-weight: 350;
+    line-height: 1.35rem;
+}
+
+.wrapper > .detail-info > .information {
+    width: 45rem;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.wrapper > .detail-info > .information > .balls {
+    width: 10rem;
+    height: 10rem;
+
+    align-items: center;
+    background-color: #ffffff;
+    border: 0.3rem solid rgb(102, 103, 170, 0.5);
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.wrapper > .detail-info > .information > .balls > .mid-title > i {
+    color: rgba(102, 103, 170, 0.5);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+}
+
+.wrapper > .detail-info > .information > .balls > .mid-title > .title {
+    color: #6667aa;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.wrapper > .detail-info > .information > .balls > .sub-content {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+
+.wrapper > .detail-info > .information > .balls > .email {
+    background-color: unset;
+    font-size: 1rem;
+    border: none;
+    outline: unset;
+}
+
+.wrapper > .detail-info > .information > .balls > .title {
+    color: #6667aa;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.wrapper > .detail-info > .information > .balls > .sub-content > i {
+    font-size: 2rem;
+}
+
+
+.content {
+    width: 100vw;
+    min-height: 60vh;
+
+    align-items: center;
+    background-color: #6667aa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content > .content-wrap {
+    width: 75rem;
+    min-height: 50vh;
+
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 10px #9b9b9b;
+}
+
+.content > .content-wrap > .skills {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.content > .content-wrap > .skills > .title-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.content > .content-wrap > .skills > .title-wrap > .title {
+    width: 20rem;
+
+    border-bottom: 0.0625rem solid rgb(102, 103, 170, 0.5);
+    color: #6667aa;
+    font-size: 1.45rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.content > .content-wrap > .skills > .title-wrap > .remark {
+    font-weight: 350;
+    line-height: 1.35rem;
+}
+
+.content > .content-wrap > .skills > .skill-wrap {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+
+}
+
+.content > .content-wrap > .skills > .skill-wrap > .skill {
+
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.content > .content-wrap > .skills > .skill-wrap > .skill > span {
+    color: #4b4b4b;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.content > .content-wrap > .skills > .skill-wrap > .skill > .image-container {
+    width: 19rem;
+    height: 26.5rem;
+
+    border: 0.3rem solid rgb(102, 103, 170, 0.5);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.content > .content-wrap > .skills > .skill-wrap > .skill > .image-container > img {
+    width: 17rem;
+    margin: 1rem;
+}
+
+
+.projects {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #F2DD68;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects > .title {
+    width: 67rem;
+    align-items: start;
+    margin-bottom: 0.5rem;
+}
+
+.projects > .title > span {
+    color: #949497;
+    text-align: left;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.projects > .content-wrap {
+    width: 75rem;
+    min-height: 90vh;
+
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #9b9b9b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.projects > .content-wrap > .left-content {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2.75rem 2.75rem 2.75rem;
+}
+
+.projects > .content-wrap > .left-content > .project-title {
+    font-weight: 500;
+    font-size: 1.6rem;
+
+
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.projects > .content-wrap > .left-content > .project-period {
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #9b9b9b;
+    margin-bottom: 2rem;
+}
+
+.projects > .content-wrap > .left-content > .project-thumbnail {
+    width: 30rem;
+    border: 0.2rem solid rgb(242, 221, 104);
+    border-radius: 1rem;
+}
+
+.projects > .content-wrap > .left-content > .link {
+    width: 7rem;
+    height: 2rem;
+
+    background-color: rgba(155, 155, 155, 0.49);
+    border-radius: 1rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 2rem;
+    margin: 2rem 0 0 11rem;
+}
+
+.projects > .content-wrap > .right-content {
+    display: flex;
+    flex-direction: column;
+    margin: 2.75rem;
+    justify-content: center;
+}
+
+.projects > .content-wrap > .right-content > .description {
+    width: 30rem;
+    min-height: 10rem;
+
+    border-bottom: 0.0625rem solid rgb(225, 225, 225);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.projects > .content-wrap > .right-content > .table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.projects > .content-wrap > .right-content > .table > .block {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects > .content-wrap > .right-content > .table > .block > i {
+    min-height: 1.25rem;
+    font-size: 1rem;
+    margin: 1rem 0 0 0;
+}
+
+.projects > .content-wrap > .right-content > .table > .block > .t-title {
+    width: 5rem;
+    min-height: 1.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem 1rem 1rem 0.5rem;
+}
+
+.projects > .content-wrap > .right-content > .table > .block > .t-content {
+    width: 22.5rem;
+    min-height: 1.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: unset;
+    margin: 1rem 0 1rem 0;
+    text-align: justify;
+}
+
+.projects > .content-wrap > .right-content > .table > .block > .t-content.link {
+    text-decoration: underline;
+}
